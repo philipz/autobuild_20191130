@@ -1,4 +1,4 @@
 FROM ubuntu:14.04
-MAINTAINER docker "docker@nginx.com"
+MAINTAINER philipz <philipzheng@gmail.com>
 RUN apt-get update && apt-get install -y nginx
 CMD ["nginx", "-g", "daemon off;"]
